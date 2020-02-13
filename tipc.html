@@ -1,0 +1,92 @@
+<html>
+ <head>
+<title>Profit Calculator</title>
+<link rel="stylesheet" type="text/css" href="tipstyle.css">
+</head>
+<body>
+
+ <header class="header">
+   <div class="arun">
+      <div class="logo">
+        <img src="f.png">
+       </div>
+           <ul class="main">
+            <li class="active"><a href="website.html">HOME</a></li>
+             <li class="r"><a href="practice2.html">ABOUT</a></li>
+             <li class="r"><a href="#">RECIPES</a>
+  <ul class="submenu">
+             <li class="S"><a href="recepis1.html">VEGETARIAN</a></li>
+             <li class="S"><a href="re.html">NON-VAGETARIAN</a></li>
+   </ul></li>
+
+             <li class="r"><a href="www.instagram.com/arunbisariya">GALLERY</a></li>
+             <li class="r"><a href="#">RESERVATION</a>
+  <nav class="submenu">
+           <div>
+             <li class="S1"><a href="registrationform.html">RESERVE SEAT</a></li>
+             <li class="S2"><a href="#">ORDER</a>
+
+               <nav class="submenu1">
+                <div>
+                 <li class="S1"><a href="recepis1.html">VEGETARIAN</a></li>
+                 <li class="S1"><a href="re.html">NON-VAGETARIAN</a></li>
+               </div>
+               </nav></li>  
+   
+             <li class="S1"><a href="#">PAYMENT</a></li>
+             <li class="S1"><a href="#">CONFIRMATION</a></li>
+            </div>
+  </nav>
+   </li>
+             <li class="r"><a href="#">CUSTOMER-PROFIT</a>
+              <ul class="submenu">
+              <li class="S2"><a href="tipc.html">P. CALCULATOR</a></li>
+   </ul>
+   </li>
+            <li class="r"><a href="#">CONTACT</a></li>
+ 
+    </ul>
+
+  
+</div>
+</header>
+
+<div id="heading">
+<p>We care for you...</p>
+<p>Know your profit...</p>
+<p>Be happy...</p>
+</div>
+</body>
+<div id="container">
+<h1>profit calculator</h1>
+<div id="calculator">
+
+<form>
+
+ <p>How much was your bill?</p>
+  <p>Rs<input id="bill" type="text" placeholder="Bill Amount"></p>
+ <p>Discount given to you?</p>
+ <select id="s">
+<option disabled selected value="0">--Choose an Option--</option>
+<option value="0.05"> 5&#37; &#45;OK</option>
+<option value="0.10"> 10&#37; &#45;Good</option>
+<option value="0.15"> 15&#37; &#45;Very Good</option>
+<option value="0.20"> 20&#37; &#45;Outstanding </option>
+</select>
+
+<p>How many people are sharing the bill?</p>
+ <p><input id="p" type="text" placeholder="number of people">People</p>
+<button type="button" id="calculate">Calculate !</button> <input type="reset"  id="reset" value=reset> </button>
+ 
+ 
+
+<div id="totaltip">
+<sup>Rs:-</sup><span id="tip">0.00</span>
+<small id="each">each</small>
+</form>
+
+</div>
+</div>
+</div>
+<script type="text/javascript" src="tipscript.js"></script>
+</html>

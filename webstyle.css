@@ -1,0 +1,226 @@
+
+body {          font-family:Century Gothics;
+               background:  silver url("http://hotelgrandimperial.com/wp-content/uploads/2017/05/restaurant_slide_1.jpg") no-repeat fixed center ;
+               background-size:100% 100%;
+		position: relative;
+		padding-top: 0em;
+	}
+
+	.header {
+		cursor: default;
+		height: 5em;
+		left: 0;
+		position: fixed;
+		text-align: left;
+		top: 0;
+		width: 100%;
+		z-index: 10001;
+                background-color:rgba(0,0,0,0.9);
+                line-height:3em;
+
+              
+
+	}
+   
+         .checkbtn{
+            color:white;
+            font-size:30px;
+           padding-left:20px;
+           line-height:1.48em;
+           float:left;
+           cursor:default;
+          display:none;
+       }
+#check{
+ display:none;
+}
+ @media (max-width:952px){
+   .logo img{
+ padding-right:550px;
+ margin-top:20px;
+
+}
+u li a{
+ font-size:14px;
+
+
+}
+}
+   
+  @media (max-width:580px){
+  .checkbtn{
+padding-top:27px;
+  display:block;
+}
+ul {
+position:fixed;
+width:40%;
+height:100vh;
+background-color:rgba(0,0,0,0.85);
+top:50px;
+left:-100%;
+padding-left:30px;
+
+z-index:1;
+
+transition:all 0.5s;
+}
+.submenu{ 
+               display:none;
+               position:absolute;
+               width:205px;
+               top:30%;
+               left:0;
+               line-height:200%;
+               border-radius:10px;
+               height:auto;
+               margin-left:175px;
+               margin-top:55px;
+}
+
+#check:checked~ul{
+left:0px;
+margin-top:20px;
+}
+
+ul li{
+display:block;
+}
+.main li {
+font-size:10px;
+width:50%;
+left:4%;
+}
+ ul li.active{
+ background-color:none;
+
+}
+ul li a:hover{background-color:none;
+color:#1b9bff;
+
+
+}
+}
+
+
+
+    .head2 img{  margin-left:-8px;
+                 width:106%;
+                 opacity:1;
+     }
+
+
+
+        ul li{
+                display:inline-block;
+                
+       }
+
+.submenu{ 
+               display:none;
+               position:absolute;
+               width:185px;
+               background-color:rgba(0,0,5,0.9);
+               line-height:200%;
+               border-radius:10px;
+               padding:0;
+               top:40px;
+}
+.submenu1{ 
+               display:none;
+               position:absolute;
+               width:185px;
+               background-color:rgba(0,0,5,0.9);
+               line-height:200%;
+               border-radius:10px;
+               padding:0px;
+               top:30px;
+               left:140px;
+
+}
+
+ul li a{ text-decoration:none;
+	color:white;
+	padding:5px 20px ;
+border:1px solid transparent;
+text-alignment:auto;
+}
+ul li a:hover{background-color:#1b9bff;
+color:white;
+transition:0.5s;
+border-radius:10px;
+font-size:16px;
+padding:auto;
+}
+ul li.active a{
+ background-color:#1b9bff;
+color:#fff;
+border-radius:10px;
+}
+.r:hover .submenu{display:block;
+
+}
+.S2:hover .submenu1{display:block;
+
+}
+.main{
+transform:translate(-15%,0%);
+text-align:center;
+}
+.logo img{
+width:150px;
+height:auto;
+transform:translate(-15%,-15%);
+position:fixed;
+margin-left:20px;
+left:88%;
+padding-top:0px;
+
+}
+
+.title h2{position:absolute;
+transform:translate(-22%,-180%);
+font-size:60px;
+letter-spacing:1px;
+ color:white;
+ text-shadow:5px 4px 1px #733e3e;
+ font-family:cursive;
+background-color:rgba(97,70,15,0.5);
+border-radius:800px;
+padding:10px;
+margin:20px 20px 80px 100px;
+}
+
+
+.title h3{
+position:absolute;
+top:1.5%;
+text-shadow:2px 2px 2px yellow;
+font-style:keyboard;
+font-size:35px;
+letter-spacing:1px;
+color:red;
+font-family:cursive;
+left:-2%;
+}
+
+
+.button{position:absolute;
+top:15%;
+left:20%;
+transform:translate(-50%,-50%);
+}
+
+.btn{border:1px solid yellow;
+ text-decoration:none;
+color:white;
+text-decoration:none;
+transition:0.8s ease;
+background-color:red;
+padding:10px 10px;
+margin:30px;
+border-radius:10px;
+}
+.btn:hover{background-color:red;
+color:green;
+}
