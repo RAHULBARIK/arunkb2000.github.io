@@ -16,7 +16,7 @@ ul li{
                 display:inline-block;
        }
 
-.submenu{ 
+.submenu{
                display:none;
                position:absolute;
                width:185px;
@@ -26,7 +26,7 @@ ul li{
                padding:0;
                top:40px;
 }
-.submenu1{ 
+.submenu1{
                display:none;
                position:absolute;
                width:185px;
@@ -86,9 +86,9 @@ top:15px;
 		z-index: 10001;
                 background-color:rgba(0,0,0,2);
                 line-height:3em;
-              
-                
-              
+
+
+
 
 	}
 
@@ -195,4 +195,5 @@ border-radius:10px;
 height:340px;
 transform:skew(2deg,2deg);
 }
+
  
